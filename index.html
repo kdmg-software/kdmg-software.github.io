@@ -1,33 +1,170 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
     <title>KDMG-Software</title>
   </head>
+
   <body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <a href="index.html" class="navbar-brand" >
+        <img src="img/kdmg.jpeg" class="rounded-right" alt="logo" style="background-color: white; padding: 0px" />
+      </a>
+      <div class="collapse navbar-collapse" id="demo">
+        <ul class="navbar-nav ml-auto text-capitalize">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active">home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link px-3">services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link px-3">portfolio</a>
+          </li>
+          <li class="nav-item"><a href="#teams" class="nav-link px-3">team</a></li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-    <div class="container">
-      <div class="header clearfix">
-
-        <h3 class="text-muted" contenteditable="true" spellcheckker="false">KDMG Software</h3>
+    <div class="carousel slide" data-ride="carousel" data-interval="3000" id="imgload" >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/slide1.jpg" alt="img" class="img-fluid" />
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide2.jpg" alt="img" class="img-fluid" />
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide3.jpg" alt="img" class="img-fluid" />
+        </div>
       </div>
 
-      <div class="jumbotron">
-        <h1 class="display-3">Coming soon</h1>
-        <p class="lead">Under constructions</p>
+      <a href="#imgload" class="carousel-control-prev" data-slide="prev" ><span class="carousel-control-prev-icon"></span></a>
+      <a href="#imgload" class="carousel-control-next" data-slide="next" ><span class="carousel-control-next-icon"></span></a>
+    </div>
 
+    <!-------------------------services area------------------>
+    <div class="b-example-divider"></div>
+    <hr class="hr hr-blurry" />
+    <section id="services" class="padding">
+      <div class="container-fluid">
+        <div class="col-12">
+            <h4 class="display-4 text-center">WHAT WE DO?</h4>
+            <hr class="my-4" />
+          </div>
       </div>
+    </section>
+    <!-------------------------portfolio area------------------>
+    <div class="b-example-divider"></div>
+    <hr class="hr hr-blurry" />
+    <section id="portfolio" class="padding">
+      <div class="container-fluid">
+        <div class="col-12">
+            <h4 class="display-4 text-center">MENTORS</h4>
+            <hr class="my-4" />
+          </div>
+      </div>
+    </section>
 
-  
+    <!------------------------->
+    <hr class="hr hr-blurry" />
+    <section id="teams" class="padding">
+      <div class="container-fluid">
+        <div class="col-12">
+            <h4 class="display-4 text-center">Our Team</h4>
+            <hr class="my-4" />
+          </div>
+      </div>
+    </section>
+    <hr class="hr hr-blurry" />
+    <!-------------------------Contact area------------------>
+    <section id="contact" class="padding">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="display-4 text-center">Connect us</h4>
+            <hr class="my-4" />
+          </div>
 
-    </div> <!-- /container -->
-  
+          <div class="col-12">
+            <h4 class="display-5 text-center">KDMG-Software</h4>
+            <h4 class="display-7 text-center">Email - connect@kdmg-software.com</h4>
+            <h4 class="display-7 text-center">Vadodara Gujarat</h4>
+            <hr class="my-4" />
+          </div>
+<!--
+          <div class="col-xs-12 col-md-6" id="contact" class="one">
+            <form class="mb-sm-4" id="for">
+              <div class="form-group">
+                <label for="exampleFormControlInput2">Name</label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="exampleFormControlInput2"
+                  placeholder="User Name"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-info">Submit</button>
+            </form>
+          </div>
+
+          <div class="col-xs-12 col-md-6" id="contact" class="two">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14767.227242104655!2d73.2476005!3d22.2853068!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5914910f09449e27!2sKDMG%20Software!5e0!3m2!1sen!2sin!4v1674564219535!5m2!1sen!2sin"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------Footer------------>
+
+    <footer>
+      <div class="container-fluid text-center">
+        <div class="row">
+          <div class="col-12 text-center bg-light text-dark">
+            <h6>Copyright &copy; kdmg-software.com</h6>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
